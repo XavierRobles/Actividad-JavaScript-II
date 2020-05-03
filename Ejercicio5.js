@@ -1,13 +1,8 @@
 var num;
 var piedraIA, papelIA, tijeraIA;
 
-
 function jugar() {
-
-
     num = prompt("¿Que eliges? para Piedra pulsa 0, Para Papel pulsa 1 o Para Tijera pulsa 2");
-
-
     var IA = Math.round(Math.random() * (3 - 1));
     if (IA === 0) {
         document.getElementById("game2").innerHTML =
