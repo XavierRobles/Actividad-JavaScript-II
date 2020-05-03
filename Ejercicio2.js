@@ -8,15 +8,9 @@ do {
 
   Nombres[count] = Nombre;
   count++;
-  Nombre.toUpperCase
-  document.write("/"+Nombre+"/")
-  if (Nombre=='marcas') {
-      
-      document.write('aaaaaaaaaaaaaaaaaaaaaaaaa')
-  }
-} while (Nombre !="marcas");
+} while (Nombre.toLowerCase() != "marcas");
 
-document.write("<br>");
+
 
 document.write("<br>");
 for (let i = 0; i < Nombres.length; i++) {
